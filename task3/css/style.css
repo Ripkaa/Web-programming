@@ -1,0 +1,117 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fond/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: raleway-bold;
+    src: url(../fond/Raleway-v4020-Bold.otf);
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(../fond/RobotoCondensed-Light.ttf);
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.top {
+    background: url(../img/top-fon.png);
+    background-size: cover;
+    aspect-ratio: 2/1;
+}
+.flex-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.flex-ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 3rem 0 0 0;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 10px;
+    font-family: roboto-regular;
+    font-size: 1rem;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.header-text div{
+    font-size: 6rem;
+    color: #0D302C;
+    font-family: raleway-bold;
+
+}
+.sub-text{
+    display: flex;
+    justify-content: center;
+   }
+.sub-text div{
+    font-size: 1rem;
+    font-family: roboto-regular;
+}
+.sub-header{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+@font-face {
+    font-family: raleway-semibold;
+    src: url(../fond/Raleway-v4020-SemiBold.otf);
+}
+.sub-header div{
+    font-size: 2rem;
+    color: #01353E;
+    font-family: raleway-semibold;
+}
+.about-text{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+}
+.about-tex-ridht{
+    margin-left: 10px;
+}
+.about-tex-left{
+    margin-right: 10px;
+}
+
+.slogan-text{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+.slogan-text-left{
+    width: 50%;
+    margin-right: 10px;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+.slogan-text-img{
+    aspect-ratio: 1/1;
+}
+.slogan-text-img div img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.card{
+    margin: 0 20px;
+}
+.card h3 {
+    font-family: roboto-bold;
+    text-align: center;
+}
+.card p {
+    font-family: roboto-bold;
+    text-align: center;
+}
+.botton{
+    background-color: #00B2A0;
+}
